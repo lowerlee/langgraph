@@ -9,6 +9,6 @@ ipykernel
 notebook
 
 langchain-chroma  # For vector storage
-chromadb  # The vector database
+pymupdf
 unstructured  # For document processing
 sentence-transformers  # For embeddings
