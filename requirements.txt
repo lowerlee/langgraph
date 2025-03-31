@@ -10,5 +10,5 @@ notebook
 
 langchain-chroma  # For vector storage
 pymupdf
-unstructured  # For document processing
+unstructured[all-docs]  # For document processing
 sentence-transformers  # For embeddings
