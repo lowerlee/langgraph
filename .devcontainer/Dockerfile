@@ -17,7 +17,15 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     libasound2 \
     libpango-1.0-0 \
     libcairo2 \
-    libgl1-mesa-glx
+    libgl1-mesa-glx \
+    libglib2.0-0 \
+    libsm6 \
+    libxrender1 \
+    libxext6 \
+    libgl1 \
+    ffmpeg \
+    libfontconfig1 \
+    libfreetype6
 
 COPY requirements.txt /tmp/
 RUN pip install --no-cache-dir -r /tmp/requirements.txt \

@@ -12,3 +12,4 @@ langchain-chroma  # For vector storage
 pymupdf
 unstructured[all-docs]  # For document processing
 sentence-transformers  # For embeddings
+opencv-python-headless
