@@ -16,7 +16,8 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     libgbm1 \
     libasound2 \
     libpango-1.0-0 \
-    libcairo2
+    libcairo2 \
+    libgl1-mesa-glx
 
 COPY requirements.txt /tmp/
 RUN pip install --no-cache-dir -r /tmp/requirements.txt \
