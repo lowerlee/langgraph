@@ -10,6 +10,12 @@ notebook
 
 langchain-chroma  # For vector storage
 pymupdf
-unstructured[all-docs]  # For document processing
 sentence-transformers  # For embeddings
-opencv-python-headless
+
+unstructured[all-docs]
+# unstructured-inference
+# pdf2image
+poppler-utils
+pandoc
+# pdfminer.six
+# pi_heifa
