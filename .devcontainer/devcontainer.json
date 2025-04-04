@@ -1,6 +1,9 @@
 {
   "name": "Langgraph Environment",
-  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
   "remoteUser": "root",
   "updateRemoteUserUID": true,
   "containerEnv": {
@@ -28,6 +31,6 @@
   },
   "runArgs": [
     "--network=host"
-  ],
-  "postCreateCommand": "pip install --no-cache-dir -r ${containerWorkspaceFolder}/requirements.txt && python -m ipykernel install --user --name=langgraph-env --display-name='Langgraph Python 3.11'"
+  ]
+  // "postCreateCommand": "pip install --no-cache-dir -r ${containerWorkspaceFolder}/requirements.txt && python -m ipykernel install --user --name=langgraph-env --display-name='Langgraph Python 3.11'"
 }
