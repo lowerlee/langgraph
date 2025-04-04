@@ -8,6 +8,8 @@ jupyter
 ipykernel
 notebook
 
+docling
+
 langchain-chroma  # For vector storage
 pymupdf
 sentence-transformers  # For embeddings

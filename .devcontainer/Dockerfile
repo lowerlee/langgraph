@@ -6,10 +6,10 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     libmagic-dev \
     libtesseract-dev \
     tesseract-ocr \
-    libgl1-mesa-glx \
-    libgl1 \
+    libgl1-mesa-glx
 
 COPY requirements.txt /tmp/
+
 RUN pip install --no-cache-dir -r /tmp/requirements.txt \
     && python -m ipykernel install --user --name=langgraph-env --display-name='Langgraph Python 3.11'
 
