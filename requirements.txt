@@ -1,23 +1,21 @@
-langgraph
-langchain-anthropic
-langchain-community
-langchain
 pandas
 numpy
 jupyter
 ipykernel
 notebook
 
-docling
+langgraph
+langchain-anthropic
+langchain-community
+langchain-chroma 
+langchain-docling
+langchain
 
-langchain-chroma  # For vector storage
-pymupdf
-sentence-transformers  # For embeddings
+# docling
 
-unstructured[all-docs]
-# unstructured-inference
-# pdf2image
-poppler-utils
-pandoc
-# pdfminer.six
-# pi_heifa
+# pymupdf
+# sentence-transformers  # For embeddings
+
+# unstructured[all-docs]
+# poppler-utils
+# pandoc
