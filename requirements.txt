@@ -1,9 +1,9 @@
+# Langgraph requirements
 pandas
 numpy
 jupyter
 ipykernel
 notebook
-
 langgraph
 langchain-anthropic
 langchain-community
@@ -11,11 +11,24 @@ langchain-chroma
 langchain-docling
 langchain
 
-# docling
-
-# pymupdf
-# sentence-transformers  # For embeddings
-
-# unstructured[all-docs]
-# poppler-utils
-# pandoc
+# olmOCR dependencies (common requirements for both CPU and GPU)
+cached-path
+smart_open
+pypdf>=5.2.0
+pypdfium2
+cryptography
+lingua-language-detector
+Pillow
+ftfy
+bleach
+markdown2
+filelock
+orjson
+requests
+zstandard
+boto3
+httpx
+torch>=2.5.1
+transformers>=4.46.2
+img2pdf
+beaker-py
