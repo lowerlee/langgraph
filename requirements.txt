@@ -4,6 +4,7 @@ jupyter
 ipykernel
 notebook
 
+# langgraph requirements
 langgraph
 langchain-anthropic
 langchain-community
@@ -11,11 +12,5 @@ langchain-chroma
 langchain-docling
 langchain
 
-# docling
-
-# pymupdf
-# sentence-transformers  # For embeddings
-
-# unstructured[all-docs]
-# poppler-utils
-# pandoc
+# lamaparse
+llama-cloud-services
