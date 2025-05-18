@@ -33,9 +33,9 @@
     "--network=host"
     // Uncomment the following line if you have a compatible NVIDIA GPU
     // "--gpus=all"
-  ],
-  // Post-create commands to clone and install olmOCR
-  "postCreateCommand": "git clone https://github.com/allenai/olmocr.git /tmp/olmocr && cd /tmp/olmocr && pip install -e . && echo 'olmOCR installed successfully!'"
-  // For GPU installation, replace the above with:
-  // "postCreateCommand": "git clone https://github.com/allenai/olmocr.git /tmp/olmocr && cd /tmp/olmocr && pip install -e .[gpu] --find-links https://flashinfer.ai/whl/cu124/torch2.4/flashinfer/ && echo 'olmOCR GPU version installed successfully!'"
+  ]
+  // // Post-create commands to clone and install olmOCR
+  // "postCreateCommand": "git clone https://github.com/allenai/olmocr.git /tmp/olmocr && cd /tmp/olmocr && pip install -e . && echo 'olmOCR installed successfully!'"
+  // // For GPU installation, replace the above with:
+  // // "postCreateCommand": "git clone https://github.com/allenai/olmocr.git /tmp/olmocr && cd /tmp/olmocr && pip install -e .[gpu] --find-links https://flashinfer.ai/whl/cu124/torch2.4/flashinfer/ && echo 'olmOCR GPU version installed successfully!'"
 }
