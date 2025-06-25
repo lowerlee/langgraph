@@ -1,5 +1,5 @@
 {
-  "name": "Langgraph and olmOCR Environment",
+  "name": "Langgraph Environment",
   "build": {
     "dockerfile": "Dockerfile",
     "context": ".."

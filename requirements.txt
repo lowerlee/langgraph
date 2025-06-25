@@ -13,3 +13,5 @@ langchain
 
 # lamaparse
 llama-cloud-services
+
+graphrag
