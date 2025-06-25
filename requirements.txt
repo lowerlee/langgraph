@@ -14,4 +14,11 @@ langchain
 # lamaparse
 llama-cloud-services
 
-graphrag
+# RSS scraping
+feedparser
+requests
+
+# Additional useful packages for document processing
+beautifulsoup4
+lxml
+python-dateutil

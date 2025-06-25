@@ -14,6 +14,7 @@ def parse_document(source_path, num_workers=4, language="en"):
     parser = LlamaParse(
         api_key=os.environ.get("LLAMA_API_KEY"),
         num_workers=num_workers,
+        result_type="markdown",
         verbose=True,
         language=language,
     )
