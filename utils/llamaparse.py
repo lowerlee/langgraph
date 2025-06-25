@@ -1,14 +1,18 @@
-import os
 from llama_cloud_services import LlamaParse
+import getpass
+import os
 
 
-def parse_document(source_path, api_key=None, num_workers=4, language="en"):
+def parse_document(source_path, num_workers=4, language="en"):
     """Parse document using LlamaParse and return result"""
-    if not api_key:
-        api_key = os.environ.get("LLAMA_API_KEY")
+    def set_env(var: str):
+        if not os.environ.get(var):
+            os.environ[var] = getpass.getpass(f"{var}: ")
+
+    set_env("LLAMA_API_KEY")
 
     parser = LlamaParse(
-        api_key=api_key,
+        api_key=os.environ.get("LLAMA_API_KEY"),
         num_workers=num_workers,
         verbose=True,
         language=language,
