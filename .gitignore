@@ -1,2 +1,5 @@
 setup.py
 __pycache__
+objects/
+data/
+documents/
