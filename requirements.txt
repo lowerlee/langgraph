@@ -23,3 +23,12 @@ beautifulsoup4
 lxml
 python-dateutil
 html2text
+
+# Embedding and vector database
+sentence-transformers
+chromadb
+
+# Visualization and dimensionality reduction
+matplotlib
+scikit-learn
+umap-learn
