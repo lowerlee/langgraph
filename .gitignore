@@ -2,4 +2,3 @@ setup.py
 __pycache__/
 objects/
 documents/
-outputs/
